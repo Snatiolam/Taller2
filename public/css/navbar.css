@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Navigation bar */
+nav, .navbar {
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+    background: white; 
+    /* color: #change; */
+}
+
+
+/* Logo and Title */
+.nav-header{
+    float: left;
+    padding: 10px 0px;
+}
+
+.nav-brand {
+    max-width: 75px;
+}
+
+.nav-brand img {
+    max-width: 100%;
+}
+
+
+/* Navigation Links */
+.nav-links{
+    margin: 0px;
+    float: right;
+}
+
+.nav-links .nav-item{
+    list-style: none;
+    float: left;
+}
+
+.nav-links .nav-item .nav-link{
+    padding: 10px 15px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Hamburger Menu */
+.toggle-menu-show, .toggle-menu-hide{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.toggle-menu-show{
+    margin: 0px;
+    float: right;
+}
+
+.toggle-menu-show i {
+    line-height: 100px;
+}
+
+.nav-link:hover, .toggle-menu-show:hover, .toggle-menu-hide:hover{
+    color: gray;
+}
+
+#toggler{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+}
