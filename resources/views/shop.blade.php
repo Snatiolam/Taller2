@@ -4,8 +4,7 @@
 <link rel="stylesheet" href="css/navbar.css">
 <style>
 input {
-    width: 20%;
-    left: 100%;
+    left: 10%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
